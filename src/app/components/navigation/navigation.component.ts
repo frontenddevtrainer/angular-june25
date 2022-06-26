@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { navigation } from "../../../environments/environment"
 
 @Component({
   selector: 'edureka-navigation',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation.component.css']
 })
 export class NavigationComponent implements OnInit {
+
+  public navigation = navigation;
 
   constructor() { }
 

@@ -6,6 +6,14 @@ export const environment = {
   production: false
 };
 
+export const navigation = [
+  { name : "Home" },
+  { name : "Sports" },
+  { name : "Politics" },
+  { name : "Health" },
+  { name : "International" }
+]
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

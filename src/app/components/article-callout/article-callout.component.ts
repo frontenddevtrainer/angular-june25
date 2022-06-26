@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Article } from "../../../interfaces/article"
 
 @Component({
   selector: 'edureka-article-callout',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./article-callout.component.css']
 })
 export class ArticleCalloutComponent implements OnInit {
+
+  // Also create public property as article.
+  @Input() article !: Article
 
   constructor() { }
 

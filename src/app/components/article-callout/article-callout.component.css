@@ -1,0 +1,9 @@
+:host {
+    border: 1px solid blueviolet;
+    display: block;
+    padding : 10px;
+    border-radius: 10px;
+    height: 250px;
+}
+
+img { width: 30px; height: 30px; border-radius: 15px; } 

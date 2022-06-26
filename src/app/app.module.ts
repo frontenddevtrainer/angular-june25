@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { ArticleCalloutComponent } from './components/article-callout/article-callout.component';
+import { ArticleCalloutsComponent } from './components/article-callouts/article-callouts.component';
 
 // Component - Required in declarations
 // Directives - Required in declarations
@@ -21,7 +22,8 @@ import { ArticleCalloutComponent } from './components/article-callout/article-ca
     FooterComponent,
     NavigationComponent,
     GalleryComponent,
-    ArticleCalloutComponent
+    ArticleCalloutComponent,
+    ArticleCalloutsComponent
   ],
   imports: [
     BrowserModule,

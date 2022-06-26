@@ -1,0 +1,442 @@
+{
+    "news": [
+        {
+            "id": "2e6463dc-9309-44ed-bad2-1b6646b1fb4f",
+            "title": "Graphic Interface",
+            "content": "praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in",
+            "author": {
+                "name": "Molly Braven",
+                "profilePic": "https://robohash.org/molestiaevoluptatibuset.png?size=50x50&set=set1",
+                "email": "mbraven0@icio.us"
+            },
+            "likes": 155,
+            "publishedOn": "2022-01-03T08:57:44Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/dddddd/000000"
+            },
+            "isTopNEWS": false,
+            "category": "National"
+        },
+        {
+            "id": "ff848d62-6b28-475a-94d7-efe927567118",
+            "title": "monitoring",
+            "content": "vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis",
+            "author": {
+                "name": "Livia Longworthy",
+                "profilePic": "https://robohash.org/quibusdamabofficia.png?size=50x50&set=set1",
+                "email": "llongworthy1@constantcontact.com"
+            },
+            "likes": 749,
+            "publishedOn": "2021-12-18T04:28:46Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/5fa2dd/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "Entertainment"
+        },
+        {
+            "id": "f1854e38-2365-4605-a1bc-cd40ecebdc03",
+            "title": "bi-directional",
+            "content": "venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet",
+            "author": {
+                "name": "Brear Davie",
+                "profilePic": "https://robohash.org/estetquasi.png?size=50x50&set=set1",
+                "email": "bdavie2@cbc.ca"
+            },
+            "likes": 13,
+            "publishedOn": "2022-03-01T13:40:32Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/cc0000/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "Entertainment"
+        },
+        {
+            "id": "10406532-ad4e-415a-94d5-af687d417e73",
+            "title": "didactic",
+            "content": "dapibus duis at velit eu est congue elementum in hac",
+            "author": {
+                "name": "Falkner Banfield",
+                "profilePic": "https://robohash.org/assumendaoccaecatisint.png?size=50x50&set=set1",
+                "email": "fbanfield3@businessweek.com"
+            },
+            "likes": 722,
+            "publishedOn": "2021-09-12T07:59:25Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/dddddd/000000",
+                "banner": "http://dummyimage.com/800x300.png/ff4444/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "International"
+        },
+        {
+            "id": "238662a0-f902-429f-8269-9e5482417af2",
+            "title": "Multi-lateral",
+            "content": "vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus",
+            "author": {
+                "name": "Hobard Conechie",
+                "profilePic": "https://robohash.org/explicaboquiain.png?size=50x50&set=set1",
+                "email": "hconechie4@wunderground.com"
+            },
+            "likes": 237,
+            "publishedOn": "2022-04-28T14:58:00Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/cc0000/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "Entertainment"
+        },
+        {
+            "id": "75187a87-45ea-4e86-913f-8818588771ef",
+            "title": "directional",
+            "content": "interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue",
+            "author": {
+                "name": "Wanda Shufflebotham",
+                "profilePic": "https://robohash.org/beataerepellendusconsequatur.png?size=50x50&set=set1",
+                "email": "wshufflebotham5@japanpost.jp"
+            },
+            "likes": 282,
+            "publishedOn": "2022-01-28T10:04:12Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/cc0000/ffffff"
+            },
+            "isTopNEWS": false,
+            "category": "Entertainment"
+        },
+        {
+            "id": "b58481e6-842a-4e2b-8477-c1128b62027f",
+            "title": "mobile",
+            "content": "faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam",
+            "author": {
+                "name": "Matthus Oughton",
+                "profilePic": "https://robohash.org/expeditaadaspernatur.png?size=50x50&set=set1",
+                "email": "moughton6@about.com"
+            },
+            "likes": 70,
+            "publishedOn": "2022-06-22T15:05:07Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/ff4444/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/dddddd/000000"
+            },
+            "isTopNEWS": true,
+            "category": "International"
+        },
+        {
+            "id": "4cec4a9f-a589-4fc8-af07-31e36574c659",
+            "title": "archive",
+            "content": "erat id mauris vulputate elementum nullam varius nulla facilisi cras",
+            "author": {
+                "name": "Gregoire Tromans",
+                "profilePic": "https://robohash.org/illumconsequaturquaerat.png?size=50x50&set=set1",
+                "email": "gtromans7@ft.com"
+            },
+            "likes": 562,
+            "publishedOn": "2021-08-29T16:15:31Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/ff4444/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/ff4444/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "Sports"
+        },
+        {
+            "id": "9e4e1b07-bd14-4bf8-b51e-239f0ce3a0a1",
+            "title": "ability",
+            "content": "vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+            "author": {
+                "name": "Guy Haliday",
+                "profilePic": "https://robohash.org/vitaeanimiquibusdam.png?size=50x50&set=set1",
+                "email": "ghaliday8@cbc.ca"
+            },
+            "likes": 76,
+            "publishedOn": "2021-10-15T11:34:50Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/5fa2dd/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "National"
+        },
+        {
+            "id": "ade0f57a-797d-48eb-93da-82129b7e3835",
+            "title": "standardization",
+            "content": "mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet",
+            "author": {
+                "name": "Winnifred Chaff",
+                "profilePic": "https://robohash.org/nihildelectusex.png?size=50x50&set=set1",
+                "email": "wchaff9@independent.co.uk"
+            },
+            "likes": 105,
+            "publishedOn": "2022-01-05T09:52:09Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/5fa2dd/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "National"
+        },
+        {
+            "id": "c880834d-0b44-4024-b5c7-c72bc984e088",
+            "title": "middleware",
+            "content": "eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis",
+            "author": {
+                "name": "Kirsten Dellenbrok",
+                "profilePic": "https://robohash.org/doloremdoloreveritatis.png?size=50x50&set=set1",
+                "email": "kdellenbroka@pen.io"
+            },
+            "likes": 190,
+            "publishedOn": "2022-04-08T13:27:07Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/5fa2dd/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "Sports"
+        },
+        {
+            "id": "13b161c0-0803-412e-9b12-13311535d4bb",
+            "title": "static",
+            "content": "posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi",
+            "author": {
+                "name": "Lewie Shevlan",
+                "profilePic": "https://robohash.org/voluptatemoccaecatimagni.png?size=50x50&set=set1",
+                "email": "lshevlanb@fotki.com"
+            },
+            "likes": 594,
+            "publishedOn": "2021-12-23T15:34:10Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/cc0000/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/dddddd/000000"
+            },
+            "isTopNEWS": false,
+            "category": "Sports"
+        },
+        {
+            "id": "984355a0-6a7f-4565-b3fe-84f84c2daedf",
+            "title": "Innovative",
+            "content": "ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus",
+            "author": {
+                "name": "Dietrich Behning",
+                "profilePic": "https://robohash.org/doloremquequiconsequatur.png?size=50x50&set=set1",
+                "email": "dbehningc@theguardian.com"
+            },
+            "likes": 555,
+            "publishedOn": "2021-07-29T09:41:33Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/ff4444/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/dddddd/000000"
+            },
+            "isTopNEWS": true,
+            "category": "International"
+        },
+        {
+            "id": "9e0d7423-2787-4b7f-a176-0989b8a99304",
+            "title": "asynchronous",
+            "content": "at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis",
+            "author": {
+                "name": "Corrinne Newport",
+                "profilePic": "https://robohash.org/nesciuntsuntqui.png?size=50x50&set=set1",
+                "email": "cnewportd@google.nl"
+            },
+            "likes": 240,
+            "publishedOn": "2022-01-08T23:57:17Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/dddddd/000000",
+                "banner": "http://dummyimage.com/800x300.png/dddddd/000000"
+            },
+            "isTopNEWS": true,
+            "category": "International"
+        },
+        {
+            "id": "08aa71d3-0272-4a65-887a-206823a698e7",
+            "title": "concept",
+            "content": "id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget",
+            "author": {
+                "name": "Jacinthe Winters",
+                "profilePic": "https://robohash.org/autemexpeditaenim.png?size=50x50&set=set1",
+                "email": "jwinterse@vkontakte.ru"
+            },
+            "likes": 980,
+            "publishedOn": "2021-08-23T00:18:25Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/5fa2dd/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "National"
+        },
+        {
+            "id": "1f2e531f-6839-4ffe-8442-1a0217ed2541",
+            "title": "moratorium",
+            "content": "vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis",
+            "author": {
+                "name": "Ursa Taw",
+                "profilePic": "https://robohash.org/autmaximeeaque.png?size=50x50&set=set1",
+                "email": "utawf@ameblo.jp"
+            },
+            "likes": 79,
+            "publishedOn": "2022-04-11T13:25:29Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/dddddd/000000",
+                "banner": "http://dummyimage.com/800x300.png/cc0000/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "International"
+        },
+        {
+            "id": "193a7215-f040-4290-a41f-b01a93f5a895",
+            "title": "service-desk",
+            "content": "volutpat erat quisque erat eros viverra eget congue eget semper",
+            "author": {
+                "name": "Robby Lindstedt",
+                "profilePic": "https://robohash.org/numquamnihilquibusdam.png?size=50x50&set=set1",
+                "email": "rlindstedtg@paypal.com"
+            },
+            "likes": 163,
+            "publishedOn": "2022-03-03T18:36:16Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/ff4444/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/5fa2dd/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "National"
+        },
+        {
+            "id": "a4296d8f-8587-4b3b-bbb1-81fa1593e65a",
+            "title": "application",
+            "content": "ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue",
+            "author": {
+                "name": "Allyson Gulliman",
+                "profilePic": "https://robohash.org/illoasperioresexplicabo.png?size=50x50&set=set1",
+                "email": "agullimanh@about.com"
+            },
+            "likes": 298,
+            "publishedOn": "2021-08-04T06:20:37Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/dddddd/000000",
+                "banner": "http://dummyimage.com/800x300.png/5fa2dd/ffffff"
+            },
+            "isTopNEWS": false,
+            "category": "Entertainment"
+        },
+        {
+            "id": "03a234be-c081-4227-bc1b-7e22014b7e12",
+            "title": "ability",
+            "content": "interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis",
+            "author": {
+                "name": "Hestia Doumic",
+                "profilePic": "https://robohash.org/dolorumistenulla.png?size=50x50&set=set1",
+                "email": "hdoumici@wikipedia.org"
+            },
+            "likes": 500,
+            "publishedOn": "2021-06-12T17:41:45Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/ff4444/ffffff"
+            },
+            "isTopNEWS": false,
+            "category": "Sports"
+        },
+        {
+            "id": "b89be725-d626-48f0-8d35-c978718212a5",
+            "title": "matrix",
+            "content": "morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed",
+            "author": {
+                "name": "Libbey Espinazo",
+                "profilePic": "https://robohash.org/uttemporasint.png?size=50x50&set=set1",
+                "email": "lespinazoj@boston.com"
+            },
+            "likes": 297,
+            "publishedOn": "2021-08-17T04:28:23Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/dddddd/000000",
+                "banner": "http://dummyimage.com/800x300.png/ff4444/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "International"
+        }
+    ],
+    "users": [],
+    "ads" : [
+        
+    ],
+    "top-news": [
+        {
+            "id": "ff848d62-6b28-475a-94d7-efe927567118",
+            "title": "monitoring",
+            "content": "vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis",
+            "author": {
+                "name": "Livia Longworthy",
+                "profilePic": "https://robohash.org/quibusdamabofficia.png?size=50x50&set=set1",
+                "email": "llongworthy1@constantcontact.com"
+            },
+            "likes": 749,
+            "publishedOn": "2021-12-18T04:28:46Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/5fa2dd/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "Entertainment"
+        },
+        {
+            "id": "f1854e38-2365-4605-a1bc-cd40ecebdc03",
+            "title": "bi-directional",
+            "content": "venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet",
+            "author": {
+                "name": "Brear Davie",
+                "profilePic": "https://robohash.org/estetquasi.png?size=50x50&set=set1",
+                "email": "bdavie2@cbc.ca"
+            },
+            "likes": 13,
+            "publishedOn": "2022-03-01T13:40:32Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/cc0000/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "Entertainment"
+        },
+        {
+            "id": "10406532-ad4e-415a-94d5-af687d417e73",
+            "title": "didactic",
+            "content": "dapibus duis at velit eu est congue elementum in hac",
+            "author": {
+                "name": "Falkner Banfield",
+                "profilePic": "https://robohash.org/assumendaoccaecatisint.png?size=50x50&set=set1",
+                "email": "fbanfield3@businessweek.com"
+            },
+            "likes": 722,
+            "publishedOn": "2021-09-12T07:59:25Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/dddddd/000000",
+                "banner": "http://dummyimage.com/800x300.png/ff4444/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "International"
+        },
+        {
+            "id": "238662a0-f902-429f-8269-9e5482417af2",
+            "title": "Multi-lateral",
+            "content": "vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus",
+            "author": {
+                "name": "Hobard Conechie",
+                "profilePic": "https://robohash.org/explicaboquiain.png?size=50x50&set=set1",
+                "email": "hconechie4@wunderground.com"
+            },
+            "likes": 237,
+            "publishedOn": "2022-04-28T14:58:00Z",
+            "image": {
+                "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
+                "banner": "http://dummyimage.com/800x300.png/cc0000/ffffff"
+            },
+            "isTopNEWS": true,
+            "category": "Entertainment"
+        }
+    ]
+}

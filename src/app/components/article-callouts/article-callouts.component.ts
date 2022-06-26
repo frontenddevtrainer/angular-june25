@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Article } from 'src/interfaces/article';
 
 
 const topNews = [
@@ -85,7 +86,7 @@ const topNews = [
 })
 export class ArticleCalloutsComponent implements OnInit {
 
-  public news = topNews;
+  public news : Article[] = topNews;
 
   constructor() { }
 

@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { ArticleCalloutComponent } from './components/article-callout/article-callout.component';
 
 // Component - Required in declarations
 // Directives - Required in declarations
@@ -15,7 +18,10 @@ import { FooterComponent } from './components/footer/footer.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NavigationComponent,
+    GalleryComponent,
+    ArticleCalloutComponent
   ],
   imports: [
     BrowserModule,

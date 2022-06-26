@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'edureka-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ["../../text.css", './header.component.css']
 })
 export class HeaderComponent implements OnInit {
 

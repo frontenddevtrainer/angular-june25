@@ -36,7 +36,7 @@ const topNews = [
       "thumbnail": "http://dummyimage.com/250x250.png/5fa2dd/ffffff",
       "banner": "http://dummyimage.com/800x300.png/cc0000/ffffff"
     },
-    "isTopNEWS": true,
+    "isTopNEWS": false,
     "category": "Entertainment"
   },
   {
@@ -54,7 +54,7 @@ const topNews = [
       "thumbnail": "http://dummyimage.com/250x250.png/dddddd/000000",
       "banner": "http://dummyimage.com/800x300.png/ff4444/ffffff"
     },
-    "isTopNEWS": true,
+    "isTopNEWS": false,
     "category": "International"
   },
   {

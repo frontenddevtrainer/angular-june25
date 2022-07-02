@@ -3,4 +3,27 @@
     height: 300px;
     width: 100%;
     display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1 {
+    position: absolute;
+    z-index: 10;
+    bottom: 50px;
+    left: 20px;
+}
+
+h3 {
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    left: 20px;
 }

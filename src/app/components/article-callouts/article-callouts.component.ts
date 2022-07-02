@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Article } from 'src/interfaces/article';
 
 
@@ -91,6 +91,6 @@ export class ArticleCalloutsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  }
 
+  }
 }

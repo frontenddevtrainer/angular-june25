@@ -4,3 +4,23 @@
     <!-- HTML tag -->
     <img [src]="galleryImage.imageUrl"/>
 </div>
+<button class="edit-button" (click)="showForm()">Edit</button>
+
+
+<form *ngIf="isFormShown">
+    <p>
+        <label>
+            Heading
+            <input [(ngModel)]="galleryImage.heading" name="heading"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            Sub Heading
+            <input [(ngModel)]="galleryImage.subHeading" name="sub-heading"/>
+        </label>
+    </p>
+    <p>
+        <button (click)="hideForm()">Update</button>
+    </p>
+</form>

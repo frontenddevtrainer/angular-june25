@@ -27,3 +27,12 @@ h3 {
     bottom: 10px;
     left: 20px;
 }
+
+form {
+    position: absolute;
+    top : 10px;
+    right: 10px;
+    background-color: white;
+}
+
+.edit-button { position: absolute; top: 10px; right: 10px; }

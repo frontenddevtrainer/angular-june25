@@ -8,6 +8,8 @@ import { GalleryImage } from 'src/interfaces/galleryimage';
 })
 export class GalleryComponent implements OnInit {
 
+  public isFormShown: boolean = false;
+
   public galleryImage: GalleryImage = {
     heading: "Gallery Image Heading",
     subHeading: "Gallery Sub Heading",
@@ -19,8 +21,16 @@ export class GalleryComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  showAlertToUser(){
+  showAlertToUser() {
     alert("Hello World!!!")
+  }
+
+  showForm() {
+    this.isFormShown = true;
+  }
+
+  hideForm() {
+    this.isFormShown = false;
   }
 
 }

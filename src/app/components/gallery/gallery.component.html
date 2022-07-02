@@ -1,5 +1,6 @@
 <div>
-    <h1>{{galleryImage.heading}}</h1>
+    <h1 (click)="showAlertToUser()">{{galleryImage.heading}}</h1>
     <h3>{{galleryImage.subHeading}}</h3>
+    <!-- HTML tag -->
     <img [src]="galleryImage.imageUrl"/>
 </div>

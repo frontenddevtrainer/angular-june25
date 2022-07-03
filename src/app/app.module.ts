@@ -13,6 +13,7 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { ArticleCalloutComponent } from './components/article-callout/article-callout.component';
 import { ArticleCalloutsComponent } from './components/article-callouts/article-callouts.component';
 import { LoginFormComponent } from './components/login-form/login-form.component';
+import { LifecycleDemoComponent } from './components/lifecycle-demo/lifecycle-demo.component';
 
 // Component - Required in declarations
 // Directives - Required in declarations
@@ -28,7 +29,8 @@ import { LoginFormComponent } from './components/login-form/login-form.component
     GalleryComponent,
     ArticleCalloutComponent,
     ArticleCalloutsComponent,
-    LoginFormComponent
+    LoginFormComponent,
+    LifecycleDemoComponent
   ],
   imports: [
     BrowserModule,

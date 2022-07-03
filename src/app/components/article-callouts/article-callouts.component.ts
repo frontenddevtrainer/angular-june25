@@ -5,7 +5,6 @@ import { Article } from 'src/interfaces/article';
 const topNews = [
   {
     "id": "ff848d62-6b28-475a-94d7-efe927567118",
-    "title": "monitoring",
     "content": "vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis",
     "author": {
       "name": "Livia Longworthy",

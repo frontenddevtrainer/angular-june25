@@ -20,6 +20,15 @@
             <edureka-login-form></edureka-login-form>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-4">
+            <edureka-lifecycle-demo *ngIf="toggle"></edureka-lifecycle-demo>
+            <button (click)="toggleLifecycleComponent()">Toggle lifecycle component.</button>
+        </div>
+    </div>
+
+
     <div class="row">
         <div class="col-12">
             <edureka-footer></edureka-footer>

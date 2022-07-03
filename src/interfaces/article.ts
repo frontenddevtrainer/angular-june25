@@ -1,6 +1,6 @@
 export interface Article {
     "id": string,
-    "title": string,
+    "title"?: string,
     "content": string,
     "author": {
         "name": string,
@@ -13,6 +13,6 @@ export interface Article {
         "thumbnail": string,
         "banner": string
     },
-    "isTopNEWS": boolean,
+    "isTopNEWS"?: boolean,
     "category": string
 }

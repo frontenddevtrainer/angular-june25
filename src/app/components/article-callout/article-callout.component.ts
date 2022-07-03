@@ -11,7 +11,8 @@ import { trigger, state, style, transition, animate } from "@angular/animations"
     trigger("load", [
        state("notloaded", style({ opacity : 0 })),
        state("loaded", style({ opacity : 1, transform : "rotate(10deg)" })),
-       transition("* => *", animate("1s")),
+       transition(":enter", animate("1s")),
+       transition(":leave", animate("1s")),
       //  transition("loaded => notloaded", animate("500ms")),
     ])
   ]
@@ -22,12 +23,16 @@ export class ArticleCalloutComponent implements OnInit {
       return "loaded"
   }
 
+  public email : string | number | null = null
+
   // Also create public property as article.
   @Input() article !: Article
+
 
   constructor() { }
 
   ngOnInit(): void {
+      console.log("init")
   }
 
 }

@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  toggle : boolean = true;
+
   title = 'EdurekaNews';
+
+  toggleLifecycleComponent(){
+    this.toggle = !this.toggle
+  }
+
 }

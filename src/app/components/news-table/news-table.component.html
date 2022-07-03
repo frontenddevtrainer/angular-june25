@@ -5,6 +5,7 @@
         <th>Author</th>
         <th>Is Top</th>
         <th>Published On</th>
+        <th>Category</th>
     </tr>
     <!-- <tr *ngFor="let news of news; let i = index" [ngStyle]="{ background : i % 2 ? '#fff' : '#ccc' }"> -->
     <tr *ngFor="let news of news; let i = index" edurekaHighlight [ngClass]="{ 'even-row' : i % 2, 'odd-row' : !(i % 2) }">
@@ -12,6 +13,10 @@
         <td edurekaUnderline>{{news.title}}</td>
         <td>{{news.author.name | uppercase}}</td>
         <td>{{news.isTopNEWS}}</td>
-        <th>{{news.publishedOn | date : "d MMMM yyyy" | edurekauppercase}}</th>
+        <td>{{news.publishedOn | date : "d MMMM yyyy" | edurekauppercase}}</td>
+        <td [ngSwitch]="news.category">
+            <span *ngSwitchCase="'Entertainment'">🎬</span>
+            <span *ngSwitchDefault>🌍</span>
+        </td>
     </tr>
 </table>

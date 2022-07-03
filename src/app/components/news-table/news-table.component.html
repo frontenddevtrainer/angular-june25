@@ -5,9 +5,10 @@
         <th>Author</th>
         <th>Is Top</th>
     </tr>
-    <tr *ngFor="let news of news; let i = index" [ngStyle]="{ background : i % 2 ? 'white' : 'grey' }">
+    <!-- <tr *ngFor="let news of news; let i = index" [ngStyle]="{ background : i % 2 ? '#fff' : '#ccc' }"> -->
+    <tr *ngFor="let news of news; let i = index" edurekaHighlight [ngClass]="{ 'even-row' : i % 2, 'odd-row' : !(i % 2) }">
         <td>{{i}}</td>
-        <td>{{news.title}}</td>
+        <td edurekaUnderline>{{news.title}}</td>
         <td>{{news.author.name}}</td>
         <td>{{news.isTopNEWS}}</td>
     </tr>

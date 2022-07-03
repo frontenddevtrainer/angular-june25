@@ -15,6 +15,8 @@ import { ArticleCalloutsComponent } from './components/article-callouts/article-
 import { LoginFormComponent } from './components/login-form/login-form.component';
 import { LifecycleDemoComponent } from './components/lifecycle-demo/lifecycle-demo.component';
 import { NewsTableComponent } from './components/news-table/news-table.component';
+import { HighlightDirective } from './directives/highlight.directive';
+import { UnderlineDirective } from './directives/underline.directive';
 
 // Component - Required in declarations
 // Directives - Required in declarations
@@ -32,7 +34,9 @@ import { NewsTableComponent } from './components/news-table/news-table.component
     ArticleCalloutsComponent,
     LoginFormComponent,
     LifecycleDemoComponent,
-    NewsTableComponent
+    NewsTableComponent,
+    HighlightDirective,
+    UnderlineDirective
   ],
   imports: [
     BrowserModule,

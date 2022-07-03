@@ -9,10 +9,18 @@ export class AppComponent {
 
   toggle : boolean = true;
 
+  people = [];
+
+  userMessage : string = "";
+
   title = 'EdurekaNews';
 
   toggleLifecycleComponent(){
     this.toggle = !this.toggle
+  }
+
+  childToParentEvent(event : string){
+    console.log(event, "childToParentEvent")
   }
 
 }

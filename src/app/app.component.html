@@ -23,7 +23,8 @@
 
     <div class="row">
         <div class="col-4">
-            <edureka-lifecycle-demo *ngIf="toggle"></edureka-lifecycle-demo>
+            <input [(ngModel)]="userMessage" name="message"/>
+            <edureka-lifecycle-demo (userclicked)="childToParentEvent($event)" [message]="userMessage" *ngIf="toggle"></edureka-lifecycle-demo>
             <button (click)="toggleLifecycleComponent()">Toggle lifecycle component.</button>
         </div>
     </div>

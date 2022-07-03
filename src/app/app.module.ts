@@ -17,6 +17,7 @@ import { LifecycleDemoComponent } from './components/lifecycle-demo/lifecycle-de
 import { NewsTableComponent } from './components/news-table/news-table.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { UnderlineDirective } from './directives/underline.directive';
+import { UppercasePipe } from './pipes/uppercase.pipe';
 
 // Component - Required in declarations
 // Directives - Required in declarations
@@ -36,7 +37,8 @@ import { UnderlineDirective } from './directives/underline.directive';
     LifecycleDemoComponent,
     NewsTableComponent,
     HighlightDirective,
-    UnderlineDirective
+    UnderlineDirective,
+    UppercasePipe
   ],
   imports: [
     BrowserModule,

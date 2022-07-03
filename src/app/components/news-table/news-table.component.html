@@ -1,0 +1,14 @@
+<table class="table">
+    <tr>
+        <th>Sno.</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Is Top</th>
+    </tr>
+    <tr *ngFor="let news of news; let i = index" [ngStyle]="{ background : i % 2 ? 'white' : 'grey' }">
+        <td>{{i}}</td>
+        <td>{{news.title}}</td>
+        <td>{{news.author.name}}</td>
+        <td>{{news.isTopNEWS}}</td>
+    </tr>
+</table>

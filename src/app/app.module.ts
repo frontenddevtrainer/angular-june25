@@ -14,6 +14,7 @@ import { ArticleCalloutComponent } from './components/article-callout/article-ca
 import { ArticleCalloutsComponent } from './components/article-callouts/article-callouts.component';
 import { LoginFormComponent } from './components/login-form/login-form.component';
 import { LifecycleDemoComponent } from './components/lifecycle-demo/lifecycle-demo.component';
+import { NewsTableComponent } from './components/news-table/news-table.component';
 
 // Component - Required in declarations
 // Directives - Required in declarations
@@ -30,7 +31,8 @@ import { LifecycleDemoComponent } from './components/lifecycle-demo/lifecycle-de
     ArticleCalloutComponent,
     ArticleCalloutsComponent,
     LoginFormComponent,
-    LifecycleDemoComponent
+    LifecycleDemoComponent,
+    NewsTableComponent
   ],
   imports: [
     BrowserModule,

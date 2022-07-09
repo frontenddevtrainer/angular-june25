@@ -9,7 +9,7 @@ import { Article } from 'src/interfaces/article';
 })
 export class ArticleCalloutsComponent implements OnInit {
 
-  public news : Article[] = this.callouts.getCallouts(3)
+  public news : Article[] = this.callouts.getCallouts(20)
 
   constructor(private callouts: CalloutsService) { }
 

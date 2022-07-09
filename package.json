@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev-server": "json-server ./mock-data/edureka-news.json --watch"
+    "dev-server": "json-server ./db.json --watch"
   },
   "private": true,
   "dependencies": {

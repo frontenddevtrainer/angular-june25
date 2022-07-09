@@ -7,7 +7,7 @@ export class CalloutsService {
 
   constructor() { }
 
-  public topNews = [
+  private topNews = [
     {
       "id": "ff848d62-6b28-475a-94d7-efe927567118",
       "content": "vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis",
@@ -80,6 +80,10 @@ export class CalloutsService {
       "category": "Entertainment"
     }
   ]
+
+  public getCallouts(rows: number = 4){
+    return this.topNews.splice(0, rows)
+  }
 
 
 

@@ -27,7 +27,14 @@ import { FakeApiInterceptor } from './services/fake-api.interceptor';
 // Pipe - Required in declarations
 // Service - Not Required to be updated in module
 
-import { environment } from "../environments/environment"
+import { environment } from "../environments/environment";
+import { UsersTableComponent } from './components/users-table/users-table.component'
+
+const interceptors = [];
+
+if (!environment.production) {
+  interceptors.push({ provide: HTTP_INTERCEPTORS, useClass: FakeApiInterceptor, multi: true })
+}
 
 @NgModule({
   declarations: [
@@ -43,7 +50,8 @@ import { environment } from "../environments/environment"
     NewsTableComponent,
     HighlightDirective,
     UnderlineDirective,
-    UppercasePipe
+    UppercasePipe,
+    UsersTableComponent
   ],
   imports: [
     BrowserModule,
@@ -53,7 +61,7 @@ import { environment } from "../environments/environment"
     HttpClientModule
   ],
   providers: [
-    { provide : HTTP_INTERCEPTORS, useClass : FakeApiInterceptor, multi : true }
+    ...interceptors
   ],
   bootstrap: [AppComponent]
 })

@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from "@angular/forms"
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations"
 
-import { HttpClientModule } from "@angular/common/http"
+import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http"
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,11 +20,14 @@ import { NewsTableComponent } from './components/news-table/news-table.component
 import { HighlightDirective } from './directives/highlight.directive';
 import { UnderlineDirective } from './directives/underline.directive';
 import { UppercasePipe } from './pipes/uppercase.pipe';
+import { FakeApiInterceptor } from './services/fake-api.interceptor';
 
 // Component - Required in declarations
 // Directives - Required in declarations
 // Pipe - Required in declarations
 // Service - Not Required to be updated in module
+
+import { environment } from "../environments/environment"
 
 @NgModule({
   declarations: [
@@ -49,7 +52,9 @@ import { UppercasePipe } from './pipes/uppercase.pipe';
     BrowserAnimationsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    { provide : HTTP_INTERCEPTORS, useClass : FakeApiInterceptor, multi : true }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

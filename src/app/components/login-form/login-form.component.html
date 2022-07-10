@@ -1,7 +1,7 @@
 <p>
     <label>
         Email
-        <input [(ngModel)]="form.email" type="text" name="email"/>
+        <input (keyup)="emailChange()" [(ngModel)]="form.email" type="text" name="email"/>
     </label>
 </p>
 <p>

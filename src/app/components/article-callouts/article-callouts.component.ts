@@ -9,12 +9,12 @@ import { Article } from 'src/interfaces/article';
 })
 export class ArticleCalloutsComponent implements OnInit {
 
-  public news : Article[] = []
+  public news: Article[] | null = null
 
   constructor(private callouts: CalloutsService) { }
 
   ngOnInit(): void {
-    this.callouts.getCallouts().subscribe((response)=>{
+    this.callouts.getCallouts().subscribe((response) => {
       // console.log(response);
       this.news = response;
     })

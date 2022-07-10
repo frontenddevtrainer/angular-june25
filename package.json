@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev-server": "json-server ./db.json --watch"
+    "dev-server": "json-server ./db.json --watch --delay 2000"
   },
   "private": true,
   "dependencies": {

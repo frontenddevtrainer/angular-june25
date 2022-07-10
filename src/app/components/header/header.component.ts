@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserService } from 'src/app/services/user.service';
 
 @Component({
   selector: 'edureka-header',
@@ -11,10 +12,16 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   public applicationName = "Edureka News"
+  public userEmail = ""
 
-  constructor() { }
+  constructor(private userService: UserService) { }
 
   ngOnInit(): void {
+
+    this.userService.user.subscribe((response)=>{
+      this.userEmail = response.email
+    })
+
   }
 
 }

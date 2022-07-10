@@ -21,6 +21,8 @@ export class UsersTableComponent implements OnInit {
     this.users.getUsers("", "ASC", 10)
       .subscribe((users) => {
         this.userList = users
+      }, (error)=>{
+        
       })
   }
 

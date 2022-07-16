@@ -1,1 +1,10 @@
-<p>news-listing-page works!</p>
+<table>
+    <tr *ngIf="!newsListing">
+        <td>Loading...</td>
+    </tr>
+    <tr *ngFor="let news of newsListing | async">
+        <td>{{news.id}}</td>
+        <td>{{news.title}}</td>
+        <td>{{news.body}}</td>
+        <td>{{news.userId}}</td>
+</table>

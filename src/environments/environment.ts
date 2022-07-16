@@ -7,11 +7,13 @@ export const environment = {
 };
 
 export const navigation = [
-  { name : "Home" },
-  { name : "Sports" },
-  { name : "Politics" },
-  { name : "Health" },
-  { name : "International" }
+  { name: "Home", path: "/" },
+  { name: "Sports", path: "news/sports" },
+  { name: "Politics", path: "news/politics" },
+  { name: "Health", path: "news/health" },
+  { name: "International", path: "news/international" },
+  { name: "Privacy", path: "privacy-policy" },
+  { name: "Contact", path: "contact" }
 ]
 
 /*

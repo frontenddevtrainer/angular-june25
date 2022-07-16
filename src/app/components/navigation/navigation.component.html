@@ -2,5 +2,7 @@
     <!-- {{navigation}} -->
     <!-- let item of array -->
     <!-- Comment > MAC cmd + / or WIN ctrl + / -->
-    <li *ngFor="let link of navigation">{{ link.name }}</li>
+    <li *ngFor="let link of navigation">
+        <a [routerLink]="link.path">{{ link.name }}</a>
+    </li>
 </ul>

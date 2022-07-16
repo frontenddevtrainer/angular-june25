@@ -9,35 +9,8 @@
             <edureka-navigation></edureka-navigation>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12">
-            <edureka-gallery></edureka-gallery>
-        </div>
-    </div>
-    <edureka-article-callouts></edureka-article-callouts>
 
-    <edureka-users-table></edureka-users-table>
-
-    <!-- <div class="row">
-        <div class="col-4">
-            <edureka-news-table></edureka-news-table>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-4">
-            <edureka-login-form></edureka-login-form>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-4">
-            <input [(ngModel)]="userMessage" name="message"/>
-            <edureka-lifecycle-demo (userclicked)="childToParentEvent($event)" [message]="userMessage" *ngIf="toggle"></edureka-lifecycle-demo>
-            <button (click)="toggleLifecycleComponent()">Toggle lifecycle component.</button>
-        </div>
-    </div> -->
-
+    <router-outlet></router-outlet>
 
     <div class="row">
         <div class="col-12">

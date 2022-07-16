@@ -28,7 +28,10 @@ import { FakeApiInterceptor } from './services/fake-api.interceptor';
 // Service - Not Required to be updated in module
 
 import { environment } from "../environments/environment";
-import { UsersTableComponent } from './components/users-table/users-table.component'
+import { UsersTableComponent } from './components/users-table/users-table.component';
+import { HomepageComponent } from './screens/homepage/homepage.component';
+import { NewsListingPageComponent } from './screens/news-listing-page/news-listing-page.component';
+import { NewsDetailPageComponent } from './screens/news-detail-page/news-detail-page.component'
 
 // All prod and non prod
 const interceptors = [
@@ -55,7 +58,10 @@ if (!environment.production) {
     HighlightDirective,
     UnderlineDirective,
     UppercasePipe,
-    UsersTableComponent
+    UsersTableComponent,
+    HomepageComponent,
+    NewsListingPageComponent,
+    NewsDetailPageComponent
   ],
   imports: [
     BrowserModule,

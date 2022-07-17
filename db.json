@@ -372,6 +372,61 @@
         "pincode": "110001"
       },
       "id": 1
+    },
+    {
+      "email": "fsffsdf@ewqdasd.dasd",
+      "password": "$2a$10$5vZk4ddEZogVFLr8jBPWhe5YpF.43ZhKduSLPC/.a2/5D0ZfISowa",
+      "firstName": "sadfsd",
+      "lastName": "fdsaf",
+      "address": [
+        {
+          "city": "",
+          "pincode": null
+        },
+        {
+          "city": "",
+          "pincode": null
+        },
+        {
+          "city": "",
+          "pincode": null
+        }
+      ],
+      "id": 2
+    },
+    {
+      "email": "33123@dasd.ddasd",
+      "password": "$2a$10$bwexqqbXvIweiyeX7IgGVu82Nq1fKYpVeNihRwmAEJ5LXbgklBHxC",
+      "firstName": "eqweeqwe",
+      "lastName": "eqeqe",
+      "address": [
+        {
+          "city": "",
+          "pincode": null
+        },
+        {
+          "city": "",
+          "pincode": null
+        }
+      ],
+      "id": 3
+    },
+    {
+      "email": "abc@abc.com",
+      "password": "$2a$10$xYO/8K216YANdnhFu6yOVuav1FGByXJXO95OLJRguqP0.sBPmYxt6",
+      "firstName": "abc",
+      "lastName": "def",
+      "address": [
+        {
+          "city": "dasdad",
+          "pincode": "dasdad"
+        },
+        {
+          "city": "",
+          "pincode": null
+        }
+      ],
+      "id": 4
     }
   ],
   "ads": [],

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, from, interval, Observable, throwError } from 'rxjs';
-import User, { Login } from 'src/interfaces/user';
+import User, { Login, RegisterForm } from 'src/interfaces/user';
 
 import { of } from "rxjs";
 import { map } from "rxjs/operators"
@@ -19,6 +19,10 @@ export class UserService {
 
   public login( form : Login ){
     return this.http.post(this.config.URLS.LOGIN, form)
+  }
+
+  public register(form : RegisterForm) {
+    return this.http.post(this.config.URLS.REGISTER, form)
   }
 
 

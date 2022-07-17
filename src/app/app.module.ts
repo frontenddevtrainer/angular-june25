@@ -35,7 +35,8 @@ import { NewsDetailPageComponent } from './screens/news-detail-page/news-detail-
 import { PrivacyPolicyPageComponent } from './screens/privacy-policy-page/privacy-policy-page.component';
 import { ContactPageComponent } from './screens/contact-page/contact-page.component';
 import { NotFoundPageComponent } from './screens/not-found-page/not-found-page.component';
-import { LoginPageComponent } from './screens/login-page/login-page.component'
+import { LoginPageComponent } from './screens/login-page/login-page.component';
+import { RegisterPageComponent } from './screens/register-page/register-page.component'
 
 // All prod and non prod
 const interceptors = [
@@ -69,14 +70,16 @@ if (!environment.production) {
     PrivacyPolicyPageComponent,
     ContactPageComponent,
     NotFoundPageComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    RegisterPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [
     ...interceptors

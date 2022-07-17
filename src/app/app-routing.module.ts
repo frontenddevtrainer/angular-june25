@@ -8,34 +8,38 @@ import { NewsDetailPageComponent } from './screens/news-detail-page/news-detail-
 import { NewsListingPageComponent } from './screens/news-listing-page/news-listing-page.component';
 import { NotFoundPageComponent } from './screens/not-found-page/not-found-page.component';
 import { PrivacyPolicyPageComponent } from './screens/privacy-policy-page/privacy-policy-page.component';
+import { RegisterPageComponent } from './screens/register-page/register-page.component';
 
 const routes: Routes = [
   {
-    path : "", component : HomepageComponent
+    path: "", component: HomepageComponent
   },
   {
-    path : "login", component : LoginPageComponent
+    path: "login", component: LoginPageComponent
+  },
+  {
+    path: "register", component: RegisterPageComponent
   },
   {
     // news/sports
-    path : "news/:category", component : NewsListingPageComponent
+    path: "news/:category", component: NewsListingPageComponent
   },
   {
-    path : "news/details/:id", component : NewsDetailPageComponent
+    path: "news/details/:id", component: NewsDetailPageComponent
   },
   {
-    path : "privacy-policy", component : PrivacyPolicyPageComponent
+    path: "privacy-policy", component: PrivacyPolicyPageComponent
   },
   {
-    path : "contact", component : ContactPageComponent, canActivate : [ AuthGuard ]
+    path: "contact", component: ContactPageComponent, canActivate: [AuthGuard]
   },
   {
-    path : "**", component : NotFoundPageComponent
+    path: "**", component: NotFoundPageComponent
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { })],
+  imports: [RouterModule.forRoot(routes, {})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

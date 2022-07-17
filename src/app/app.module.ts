@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { FormsModule } from "@angular/forms"
+import { FormsModule, ReactiveFormsModule } from "@angular/forms"
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations"
 
 import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http"
@@ -34,7 +34,8 @@ import { NewsListingPageComponent } from './screens/news-listing-page/news-listi
 import { NewsDetailPageComponent } from './screens/news-detail-page/news-detail-page.component';
 import { PrivacyPolicyPageComponent } from './screens/privacy-policy-page/privacy-policy-page.component';
 import { ContactPageComponent } from './screens/contact-page/contact-page.component';
-import { NotFoundPageComponent } from './screens/not-found-page/not-found-page.component'
+import { NotFoundPageComponent } from './screens/not-found-page/not-found-page.component';
+import { LoginPageComponent } from './screens/login-page/login-page.component'
 
 // All prod and non prod
 const interceptors = [
@@ -67,7 +68,8 @@ if (!environment.production) {
     NewsDetailPageComponent,
     PrivacyPolicyPageComponent,
     ContactPageComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,

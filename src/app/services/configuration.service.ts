@@ -14,7 +14,8 @@ export class ConfigurationService {
     USERS : `${this.API_BASE_URL}/users`,
     ADS: `${this.API_BASE_URL}/ads`,
     TOPNEWS: `${this.API_BASE_URL}/top-news`,
-    PUBLIC_USERS: "https://jsonplaceholder.typicode.com/users"
+    PUBLIC_USERS: "https://jsonplaceholder.typicode.com/users",
+    LOGIN : `${this.API_BASE_URL}/login`,
   }
 
 

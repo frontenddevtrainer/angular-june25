@@ -2,3 +2,6 @@
 
 .even-row { background-color: #ccc; }
 .odd-row { background-color: #fff; }
+
+input.error { border: 1px solid red; }
+span.error { color : red };

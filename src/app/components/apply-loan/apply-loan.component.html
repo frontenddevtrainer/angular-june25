@@ -3,7 +3,7 @@
         <p>
             <label>
                 firstName
-                <input type="text" required [(ngModel)]="form.firstName" name="firstName" #firstName="ngModel" />
+                <input [ngClass]="{ error : firstName.errors && firstName.touched }" type="text" required [(ngModel)]="form.firstName" name="firstName" #firstName="ngModel" />
                 <span class="error" *ngIf="firstName.errors && firstName.touched">
                     <span *ngIf="firstName.errors['required']">This is required</span>
                 </span>
@@ -13,7 +13,7 @@
         <p>
             <label>
                 lastName
-                <input type="text" required [(ngModel)]="form.lastName" name="lastName" #lastName="ngModel" />
+                <input type="text" [ngClass]="{ error : lastName.errors && lastName.touched }"  required [(ngModel)]="form.lastName" name="lastName" #lastName="ngModel" />
                 <span class="error" *ngIf="lastName.errors && lastName.touched">
                     <span *ngIf="lastName.errors['required']">This is required</span>
                 </span>
@@ -23,7 +23,7 @@
         <p>
             <label>
                 email
-                <input type="email" required email [(ngModel)]="form.email" name="email" #email="ngModel" />
+                <input type="email" [ngClass]="{ error : email.errors && email.touched }"  required email [(ngModel)]="form.email" name="email" #email="ngModel" />
                 <span class="error" *ngIf="email.errors && email.touched">
                     <span *ngIf="email.errors['required']">This is required</span>
                 </span>
@@ -33,7 +33,7 @@
         <p>
             <label>
                 password
-                <input type="password" required minlength="8" [(ngModel)]="form.password" name="password"
+                <input type="password" [ngClass]="{ error : password.errors && password.touched }"  required minlength="8" [(ngModel)]="form.password" name="password"
                     #password="ngModel" />
                 <span class="error" *ngIf="password.errors && password.touched">
                     <span *ngIf="password.errors['required']">This is required</span>
@@ -44,7 +44,7 @@
         <p>
             <label>
                 mobileNo
-                <input type="text" required maxlength="10" minlength="10" [(ngModel)]="form.mobileNo" name="mobileNo"
+                <input type="text" [ngClass]="{ error : mobileNo.errors && mobileNo.touched }"  required maxlength="10" minlength="10" [(ngModel)]="form.mobileNo" name="mobileNo"
                     #mobileNo="ngModel" />
                 <span class="error" *ngIf="mobileNo.errors && mobileNo.touched">
                     <span *ngIf="mobileNo.errors['required']">This is required</span>
@@ -55,7 +55,7 @@
         <p>
             <label>
                 age
-                <input type="text" required min="18" [(ngModel)]="form.age" name="age" #age="ngModel" />
+                <input type="text" [ngClass]="{ error : age.errors && age.touched }"  required min="18" [(ngModel)]="form.age" name="age" #age="ngModel" />
                 <span class="error" *ngIf="age.errors && age.touched">
                     <span *ngIf="age.errors['required']">This is required</span>
                 </span>
@@ -65,7 +65,7 @@
         <p>
             <label>
                 taxId
-                <input type="text" required [(ngModel)]="form.taxId" name="taxId" #taxId="ngModel" />
+                <input type="text" [ngClass]="{ error : taxId.errors && taxId.touched }"  required [(ngModel)]="form.taxId" name="taxId" #taxId="ngModel" />
                 <span class="error" *ngIf="taxId.errors && taxId.touched">
                     <span *ngIf="taxId.errors['required']">This is required</span>
                 </span>
@@ -75,7 +75,7 @@
         <p>
             <label>
                 checkCredit
-                <input type="checkbox" required [(ngModel)]="form.checkCredit" name="checkCredit"
+                <input type="checkbox" [ngClass]="{ error : checkCredit.errors && checkCredit.touched }"  required [(ngModel)]="form.checkCredit" name="checkCredit"
                     #checkCredit="ngModel" />
                 <span class="error" *ngIf="checkCredit.errors && checkCredit.touched">
                     <span *ngIf="checkCredit.errors['required']">This is required</span>

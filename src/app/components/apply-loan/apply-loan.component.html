@@ -4,7 +4,7 @@
             <label>
                 firstName
                 <input type="text" required [(ngModel)]="form.firstName" name="firstName" #firstName="ngModel" />
-                <span class="error" *ngIf="firstName.errors">
+                <span class="error" *ngIf="firstName.errors && firstName.touched">
                     <span *ngIf="firstName.errors['required']">This is required</span>
                 </span>
             </label>
@@ -14,7 +14,7 @@
             <label>
                 lastName
                 <input type="text" required [(ngModel)]="form.lastName" name="lastName" #lastName="ngModel" />
-                <span class="error" *ngIf="lastName.errors">
+                <span class="error" *ngIf="lastName.errors && lastName.touched">
                     <span *ngIf="lastName.errors['required']">This is required</span>
                 </span>
             </label>
@@ -24,7 +24,7 @@
             <label>
                 email
                 <input type="email" required email [(ngModel)]="form.email" name="email" #email="ngModel" />
-                <span class="error" *ngIf="email.errors">
+                <span class="error" *ngIf="email.errors && email.touched">
                     <span *ngIf="email.errors['required']">This is required</span>
                 </span>
             </label>
@@ -35,7 +35,7 @@
                 password
                 <input type="password" required minlength="8" [(ngModel)]="form.password" name="password"
                     #password="ngModel" />
-                <span class="error" *ngIf="password.errors">
+                <span class="error" *ngIf="password.errors && password.touched">
                     <span *ngIf="password.errors['required']">This is required</span>
                 </span>
             </label>
@@ -46,7 +46,7 @@
                 mobileNo
                 <input type="text" required maxlength="10" minlength="10" [(ngModel)]="form.mobileNo" name="mobileNo"
                     #mobileNo="ngModel" />
-                <span class="error" *ngIf="mobileNo.errors">
+                <span class="error" *ngIf="mobileNo.errors && mobileNo.touched">
                     <span *ngIf="mobileNo.errors['required']">This is required</span>
                 </span>
             </label>
@@ -56,7 +56,7 @@
             <label>
                 age
                 <input type="text" required min="18" [(ngModel)]="form.age" name="age" #age="ngModel" />
-                <span class="error" *ngIf="age.errors">
+                <span class="error" *ngIf="age.errors && age.touched">
                     <span *ngIf="age.errors['required']">This is required</span>
                 </span>
             </label>
@@ -66,7 +66,7 @@
             <label>
                 taxId
                 <input type="text" required [(ngModel)]="form.taxId" name="taxId" #taxId="ngModel" />
-                <span class="error" *ngIf="taxId.errors">
+                <span class="error" *ngIf="taxId.errors && taxId.touched">
                     <span *ngIf="taxId.errors['required']">This is required</span>
                 </span>
             </label>
@@ -77,7 +77,7 @@
                 checkCredit
                 <input type="checkbox" required [(ngModel)]="form.checkCredit" name="checkCredit"
                     #checkCredit="ngModel" />
-                <span class="error" *ngIf="checkCredit.errors">
+                <span class="error" *ngIf="checkCredit.errors && checkCredit.touched">
                     <span *ngIf="checkCredit.errors['required']">This is required</span>
                 </span>
             </label>

@@ -1,5 +1,5 @@
 <div>
-    <form #applyLoanForm="ngForm" (ngSubmit)="applyLoan(applyLoanForm)" verifyTaxId>
+    <form #applyLoanForm="ngForm" (ngSubmit)="applyLoan(applyLoanForm)" [verifyTaxId]="['lastName', 'taxId']">
         <p>
             <label>
                 firstName
@@ -69,6 +69,9 @@
                 <input type="text" [ngClass]="{ error : taxId.errors && taxId.touched }"  required [(ngModel)]="form.taxId" name="taxId" #taxId="ngModel" />
                 <span class="error" *ngIf="taxId.errors && taxId.touched">
                     <span *ngIf="taxId.errors['required']">This is required</span>
+                </span>
+                <span class="error" *ngIf="taxId.touched && applyLoanForm.errors?.['taxid']">
+                    <span>TaxID format is invalid.</span>
                 </span>
             </label>
         </p>

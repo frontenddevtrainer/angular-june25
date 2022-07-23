@@ -1,9 +1,8 @@
 <div>
-    <form #applyLoanForm="ngForm" (ngSubmit)="applyLoan(applyLoanForm)">
+    <form #applyLoanForm="ngForm" (ngSubmit)="applyLoan(applyLoanForm)" verifyTaxId>
         <p>
             <label>
                 firstName
-                {{firstName.errors | json}}
                 <input [ngClass]="{ error : firstName.errors && firstName.touched }" type="text" required [pattern]="alphabetRegex" [(ngModel)]="form.firstName" name="firstName" #firstName="ngModel" />
                 <span class="error" *ngIf="firstName.errors && firstName.touched">
                     <span *ngIf="firstName.errors['required']">This is required</span>
@@ -24,7 +23,6 @@
         <p>
             <label>
                 email
-                {{ email.errors | json }}
                 <input type="email" [ngClass]="{ error : email.errors && email.touched }"  required [pattern]="emailRegex" [(ngModel)]="form.email" name="email" #email="ngModel" />
                 <span class="error" *ngIf="email.errors && email.touched">
                     <span *ngIf="email.errors['required']">This is required</span>

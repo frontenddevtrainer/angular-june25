@@ -3,7 +3,8 @@
         <p>
             <label>
                 firstName
-                <input [ngClass]="{ error : firstName.errors && firstName.touched }" type="text" required [(ngModel)]="form.firstName" name="firstName" #firstName="ngModel" />
+                {{firstName.errors | json}}
+                <input [ngClass]="{ error : firstName.errors && firstName.touched }" type="text" required [pattern]="alphabetRegex" [(ngModel)]="form.firstName" name="firstName" #firstName="ngModel" />
                 <span class="error" *ngIf="firstName.errors && firstName.touched">
                     <span *ngIf="firstName.errors['required']">This is required</span>
                 </span>
@@ -13,7 +14,7 @@
         <p>
             <label>
                 lastName
-                <input type="text" [ngClass]="{ error : lastName.errors && lastName.touched }"  required [(ngModel)]="form.lastName" name="lastName" #lastName="ngModel" />
+                <input type="text" [ngClass]="{ error : lastName.errors && lastName.touched }"  required [pattern]="alphabetRegex" [(ngModel)]="form.lastName" name="lastName" #lastName="ngModel" />
                 <span class="error" *ngIf="lastName.errors && lastName.touched">
                     <span *ngIf="lastName.errors['required']">This is required</span>
                 </span>
@@ -23,9 +24,11 @@
         <p>
             <label>
                 email
-                <input type="email" [ngClass]="{ error : email.errors && email.touched }"  required email [(ngModel)]="form.email" name="email" #email="ngModel" />
+                {{ email.errors | json }}
+                <input type="email" [ngClass]="{ error : email.errors && email.touched }"  required [pattern]="emailRegex" [(ngModel)]="form.email" name="email" #email="ngModel" />
                 <span class="error" *ngIf="email.errors && email.touched">
                     <span *ngIf="email.errors['required']">This is required</span>
+                    <span *ngIf="email.errors['pattern']">Email format is not correct.</span>
                 </span>
             </label>
         </p>

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './guard/auth.guard';
+import { ApplyLoanComponent } from './screens/apply-loan/apply-loan.component';
 import { ContactPageComponent } from './screens/contact-page/contact-page.component';
 import { HomepageComponent } from './screens/homepage/homepage.component';
 import { LoginPageComponent } from './screens/login-page/login-page.component';
@@ -33,6 +34,10 @@ const routes: Routes = [
   {
     path: "contact", component: ContactPageComponent, canActivate: [AuthGuard]
   },
+  {
+    path: "apply-loan", component: ApplyLoanComponent
+  },
+
   {
     path: "**", component: NotFoundPageComponent
   }

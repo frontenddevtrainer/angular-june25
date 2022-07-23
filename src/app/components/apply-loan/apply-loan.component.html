@@ -1,0 +1,76 @@
+<div>
+    <form #applyLoanForm="ngForm" (ngSubmit)="applyLoan(applyLoanForm)">
+        <p>
+            <label>
+                firstName
+                <input type="text" required [(ngModel)]="form.firstName" name="firstName" #firstName="ngModel" />
+            </label>
+        </p>
+
+        <p>
+            <label>
+                lastName
+                <input type="text" [(ngModel)]="form.lastName" name="lastName" #lastName="ngModel" />
+            </label>
+        </p>
+
+        <p>
+            <label>
+                email
+                <input type="text" [(ngModel)]="form.email" name="email" #email="ngModel" />
+            </label>
+        </p>
+
+        <p>
+            <label>
+                password
+                <input type="text" [(ngModel)]="form.password" name="password" #password="ngModel" />
+            </label>
+        </p>
+
+        <p>
+            <label>
+                mobileNo
+                <input type="text" [(ngModel)]="form.mobileNo" name="mobileNo" #mobileNo="ngModel" />
+            </label>
+        </p>
+
+        <p>
+            <label>
+                age
+                <input type="text" [(ngModel)]="form.age" name="age" #age="ngModel" />
+            </label>
+        </p>
+
+        <p>
+            <label>
+                taxId
+                <input type="text" [(ngModel)]="form.taxId" name="taxId" #taxId="ngModel" />
+            </label>
+        </p>
+
+        <p>
+            <label>
+                checkCredit
+                <input type="checkbox" [(ngModel)]="form.checkCredit" name="checkCredit" #checkCredit="ngModel" />
+            </label>
+        </p>
+
+        <p>
+            <button [disabled]="applyLoanForm.form.status === 'INVALID'" type="submit">Submit</button>
+        </p>
+    </form>
+
+
+</div>
+
+<!-- 
+    Firstname
+    Lastname
+    Email
+    Password
+    Mobile No
+    Age
+    Tax identification  
+    Content to check credit score.
+ -->

@@ -39,7 +39,8 @@ import { LoginPageComponent } from './screens/login-page/login-page.component';
 import { RegisterPageComponent } from './screens/register-page/register-page.component';
 import { ApplyLoanComponent } from './screens/apply-loan/apply-loan.component'
 import { ApplyLoanFormComponent } from './components/apply-loan/apply-loan.component';
-import { VerifyTaxIdDirective } from './directives/verify-tax-id.directive'
+import { VerifyTaxIdDirective } from './directives/verify-tax-id.directive';
+import { TaxidFormatDirective } from './directives/taxid-format.directive'
 
 // All prod and non prod
 const interceptors = [
@@ -77,7 +78,8 @@ if (!environment.production) {
     RegisterPageComponent,
     ApplyLoanComponent,
     ApplyLoanFormComponent,
-    VerifyTaxIdDirective
+    VerifyTaxIdDirective,
+    TaxidFormatDirective
   ],
   imports: [
     BrowserModule,

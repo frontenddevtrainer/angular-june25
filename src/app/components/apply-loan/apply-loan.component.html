@@ -66,9 +66,10 @@
         <p>
             <label>
                 taxId
-                <input type="text" [ngClass]="{ error : taxId.errors && taxId.touched }"  required [(ngModel)]="form.taxId" name="taxId" #taxId="ngModel" />
+                <input type="text" [ngClass]="{ error : taxId.errors && taxId.touched }"  required taxidFormat [(ngModel)]="form.taxId" name="taxId" #taxId="ngModel" />
                 <span class="error" *ngIf="taxId.errors && taxId.touched">
                     <span *ngIf="taxId.errors['required']">This is required</span>
+                    <span *ngIf="taxId.errors['taxidFormat']">Invalid format should ABCDE1234F</span>
                 </span>
                 <span class="error" *ngIf="taxId.touched && applyLoanForm.errors?.['taxid']">
                     <span>TaxID format is invalid.</span>
